@@ -99,13 +99,9 @@ saga --help
 
 ## Install AI Skills
 
-Install the Saga site skill using the instructions your instructor provides. Instructor source path:
+Install the Saga site skill using the instructions your instructor provides.
 
-```text
-/Users/deverman/Documents/code/saga-sites-skill
-```
-
-TODO: Replace this local instructor path with the final student install command or URL.
+TODO: Add the final Saga skill install command or URL.
 
 Use a design skill if your AI tool supports skills. This helps the AI create a more polished landing page.
 
