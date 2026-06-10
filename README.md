@@ -101,11 +101,16 @@ saga --help
 
 Install the Saga site skill using the instructions your instructor provides.
 
-TODO: Add the final Saga skill install command or URL.
+https://github.com/deverman/saga-sites-skill
 
 Use a design skill if your AI tool supports skills. This helps the AI create a more polished landing page.
 
-TODO: Add copywriting skill install instructions.
+https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design
+
+Install this Marketing skill to help with the copywriting for your page:
+
+https://github.com/coreyhaines31/marketingskills
+
 
 ## Project Tour
 
