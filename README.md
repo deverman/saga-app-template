@@ -219,7 +219,7 @@ saga build
 The generated site is written to:
 
 ```text
-deploy/
+docs/
 ```
 
 Before publishing, open the local site and check:
