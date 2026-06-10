@@ -232,7 +232,7 @@ Before publishing, open the local site and check:
 
 ## Publish With GitHub Pages
 
-1. Commit and push your repository, including the `deploy/` folder.
+1. Commit and push your repository, including the `docs/` folder.
 2. On GitHub, open your repository settings.
 3. Go to **Pages**.
 4. Set the build and deployment source to **GitHub Actions**.
