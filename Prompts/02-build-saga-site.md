@@ -40,6 +40,11 @@ Style requirements:
 - Keep text readable and buttons easy to tap on mobile.
 - Do not use assets outside the repository unless I approve them.
 
+Be sure to use skills as necessary for the following
+- Frontend Design Skill
+- Copywriting Skill
+- Saga site building skill
+
 After editing:
 - Tell me which files changed.
 - Tell me what command to run to preview the site.

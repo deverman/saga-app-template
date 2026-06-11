@@ -44,8 +44,26 @@ Optional details:
 - Press or launch notes:
 - Any words, claims, or visual styles to avoid:
 
+Analyze the App XCode Project to fully understand the app capabilities unique selling proposition and colors used in the app to match the color pallet on the website:
+/Users/username/Documents/code/exampleproject
+
+App Color Pallet contained in image: content/static/assets/filename.svg
+
+- Any words, claims, or visual styles to avoid: 
+Don't bring in a lot of clichés, use copy that stands out from other apps
+
+
+
+Analyze the App XCode Project to fully understand the app capabilities unique selling proposition and colors used in the app to match the color pallet on the website:
+Example: /Users/deverman/Documents/code/exampleproject
+
+App Color Pallet contained in: Example: content/static/assets/appcolors.svg
+
+- Any words, claims, or visual styles to avoid: 
+Don't bring in a lot of clichés, use copy that stands out from other apps
+
 Create a concise website brief with:
-- One-sentence app positioning.
+- One-sentence app positioning using your copywriting skill.
 - Recommended headline and subheadline.
 - Suggested page sections.
 - A list of assets to use.
