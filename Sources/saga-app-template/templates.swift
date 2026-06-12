@@ -13,8 +13,8 @@ func baseHtml(title pageTitle: String, @NodeBuilder children: () -> NodeConverti
       link(href: Saga.hashed("/static/style.css"), rel: "stylesheet")
     }
     body {
-      header {
-        nav {
+      header(class: "site-header") {
+        nav(class: "site-nav") {
           a(class: "site-title", href: "/") { SiteMetadata.name }
           div(class: "nav-links") {
             a(href: "#features") { "Features" }
@@ -26,7 +26,7 @@ func baseHtml(title pageTitle: String, @NodeBuilder children: () -> NodeConverti
         children()
       }
       footer {
-        nav {
+        nav(class: "footer-nav") {
           div(class: "nav-links") {
             a(href: "/privacy-policy") { "Privacy Policy" }
           }
