@@ -10,7 +10,7 @@ I want you to build an app landing page in this Swift Saga static site template.
 Before editing:
 1. Inspect `README.md`, `Package.swift`, `Sources/`, `content/`, and `content/static/`.
 2. Confirm where the homepage content, Swift templates, CSS, and static assets live.
-3. If my app brief, asset paths, CTA URL, or privacy/support/contact information are missing, ask me questions before making changes.
+3. If my app brief, asset paths, CTA URL, App Store URL, privacy details, support details, contact information, or company/developer name are missing, ask me questions before making changes.
 
 Use this site brief:
 
@@ -28,8 +28,30 @@ Implementation requirements:
   - Screenshots or product preview.
   - App Store or TestFlight CTA.
   - FAQ.
-  - Privacy/support/contact links.
-- Include SEO title, meta description, and social sharing metadata if the template supports it. If it does not support these yet, ask before adding that capability.
+  - Privacy, support, and contact links.
+- Create dedicated Privacy Policy and Support pages suitable for App Store submission.
+- Generate privacy policy content based on the app's actual behavior. Do not use generic placeholder policies.
+- If privacy details are missing, ask questions before generating the policy.
+- The Privacy Policy should explicitly cover:
+  - Effective date.
+  - Developer or company name.
+  - Information collected.
+  - Information not collected.
+  - Third-party services used.
+  - Analytics and crash reporting.
+  - Authentication providers.
+  - Purchases and subscriptions.
+  - Data storage and retention.
+  - Data deletion requests.
+  - Children's privacy.
+  - User rights.
+  - Contact information.
+- If the app does not collect personal data, clearly state that.
+- Create a Support page containing:
+  - Contact method(s).
+  - Response expectations.
+  - Frequently asked questions if appropriate.
+- Include SEO title, meta description, canonical URL, and social sharing metadata if the template supports them. If not, ask before adding that capability.
 - Make the page responsive for mobile and desktop.
 - Avoid placeholder text unless you clearly mark it as TODO.
 - Do not edit generated files in `deploy/` directly.
@@ -40,13 +62,14 @@ Style requirements:
 - Keep text readable and buttons easy to tap on mobile.
 - Do not use assets outside the repository unless I approve them.
 
-Be sure to use skills as necessary for the following
+Be sure to use skills as necessary for the following:
 - Frontend Design Skill
 - Copywriting Skill
-- Saga site building skill
+- Saga Site Building Skill
 
 After editing:
 - Tell me which files changed.
 - Tell me what command to run to preview the site.
 - Tell me what to check in the browser.
+- Call out any privacy-policy assumptions that should be reviewed before App Store submission.
 ```
