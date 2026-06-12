@@ -85,9 +85,10 @@ This template expects Swift 6.0 or newer.
 
 ### 3. Install Saga
 
-Install the Saga static site generator CLI:
+Install the [Saga static site generator CLI](https://getsaga.dev):
 
 ```bash
+brew trust loopwerk/tap
 brew install loopwerk/tap/saga
 ```
 
